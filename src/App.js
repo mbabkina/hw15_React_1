@@ -11,7 +11,6 @@ const TOY_IMAGE =
 const YODA_IMAGE =
   'https://static.wikia.nocookie.net/rustarwars/images/d/d6/Yoda_SWSB.png'
 
-
 const postsData = [
   {
     name: 'Anakin skywalker',
