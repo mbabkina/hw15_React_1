@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Posts = (props) => {
-    return (< div className="post" > 
+const Posts = (props) => 
+    < div className="post" > 
         < div className="head-wrapper" > 
           <img className="icon" src={props.photo} />
           <span className = "name">{props.name}</span>
@@ -12,7 +12,7 @@ const Posts = (props) => {
         <p className = "content">{props.content}</p>
         <img className="photo" src={props.image} />
     </ div>
-    );
-}
+    
+
 
 export default Posts;
